@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>申し込み | Cafe de プログラミング</title>
+	<link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+	<header>
+
+	</header>
+	<main>
+		<div class="wrapper">
+			<h2 class="section-title">Apply</h2>
+			<section class="card">
+				<form action="">
+					<p>「必須」のついた項目は必ず回答してください</p>
+					<div class="form-item">
+						<label for="name">名前</label>
+						<input type="text" name="name" id="name">
+					</div>
+					<div class="form-item">
+						<label for="mail">メールアドレス</label>
+						<input type="text" name="mail" id="mail">
+					</div>
+					<div class="form-item">
+						<label for="job">職業</label>
+						<select name="job" id="job" value="選択してください">
+							<option value="" selected hidden>選択してください</option>
+							<option value="エンジニア">エンジニア</option>
+							<option value="クリエイティブ系">クリエイティブ系</option>
+							<option value="会社員">その他会社員</option>
+							<option value="フリーランス">フリーランス</option>
+							<option value="アルバイト">アルバイト</option>
+							<option value="学生">学生</option>
+							<option value="なし">なし</option>
+						</select>
+					</div>
+					<div class="form-item">
+						<label for="comment">コメント</label>
+						<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+					</div>
+					<input type="submit" value="送信する">
+				</form>
+			</section>
+		</div>
+	</main>
+</body>
+</html>
