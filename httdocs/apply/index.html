@@ -16,7 +16,7 @@
 				<form action="">
 					<p>「必須」のついた項目は必ず回答してください</p>
 					<div class="form-item">
-						<label for="name">名前</label>
+						<label for="name">お名前</label>
 						<input type="text" name="name" id="name">
 					</div>
 					<div class="form-item">
@@ -26,7 +26,7 @@
 					<div class="form-item">
 						<label for="job">職業</label>
 						<select name="job" id="job" value="選択してください">
-							<option value="" selected hidden>選択してください</option>
+							<option value="" selected hidden>(選択してください)</option>
 							<option value="エンジニア">エンジニア</option>
 							<option value="クリエイティブ系">クリエイティブ系</option>
 							<option value="会社員">その他会社員</option>
@@ -38,12 +38,16 @@
 					</div>
 					<div class="form-item">
 						<label for="comment">コメント</label>
-						<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+						<textarea name="comment" id="comment" rows="2"></textarea>
 					</div>
 					<input type="submit" value="送信する">
 				</form>
 			</section>
 		</div>
 	</main>
+	<footer>
+		<p>〒111-1111</p>
+		<p>東京都豊島区東池袋0-00-0<br>なんとかタワー0階</p>
+	</footer>
 </body>
 </html>
