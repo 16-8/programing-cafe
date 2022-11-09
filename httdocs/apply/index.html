@@ -2,26 +2,28 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<title>申し込み | Cafe de プログラミング</title>
 	<link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-	<header>
-
-	</header>
-	<main>
-		<div class="wrapper">
-			<h2 class="section-title">Apply</h2>
-			<section class="card">
-				<form action="">
-					<p>「必須」のついた項目は必ず回答してください</p>
+	<div class="wrapper">
+		<header class="header-apply">
+			<a href="../"><h1 class="page-title"><span>Cafe de プログラミング</span></h1></a>
+		</header>
+	</div>
+	<main class="wrapper">
+		<section id ="apply">
+			<h2 class="section-title text-center">Apply</h2>
+			<div class="card">
+				<form action="" id="apply-form">
 					<div class="form-item">
 						<label for="name">お名前</label>
 						<input type="text" name="name" id="name">
 					</div>
 					<div class="form-item">
-						<label for="mail">メールアドレス</label>
-						<input type="text" name="mail" id="mail">
+						<label for="email">メールアドレス</label>
+						<input type="text" name="email" id="email">
 					</div>
 					<div class="form-item">
 						<label for="job">職業</label>
@@ -37,17 +39,26 @@
 						</select>
 					</div>
 					<div class="form-item">
-						<label for="comment">コメント</label>
+						<label for="preferred-date">希望日時・会場</label>
+						<select name="preferred-date" id="preferred-date" value="選択してください">
+							<option value="" selected hidden>(選択してください)</option>
+							<option value="nov-19-tokyo">11/19 & 26 - 東京</option>
+							<option value="nov-19-tokyo">11/19 & 26 - 大阪</option>
+							<option value="dec-03-tokyo">12/03 & 10 - 東京</option>
+						</select>
+					</div>
+					<div class="form-item">
+						<label for="comment">コメント (自由記述)</label>
 						<textarea name="comment" id="comment" rows="2"></textarea>
 					</div>
-					<input type="submit" value="送信する">
+					<input type="submit" value="送信する" class="btn">
 				</form>
-			</section>
-		</div>
+			</div>
+		</section>
 	</main>
 	<footer>
-		<p>〒111-1111</p>
-		<p>東京都豊島区東池袋0-00-0<br>なんとかタワー0階</p>
+		<p class="company">株式会社IT cafe</p>
+		<small>&copy; IT cafe Co.,Ltd 2022</small>
 	</footer>
 </body>
 </html>

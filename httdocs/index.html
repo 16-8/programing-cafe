@@ -2,126 +2,171 @@
 <html lang="ja">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Cafe de プログラミング</title>
 	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<header>
-		<div>
-			<h1 class="page-title text-center"><span>Cafe de プログラミング</span></h1>
-		</div>
-		<p class="page-subtitle text-center">～ 土曜日だけ開かれる、大人の勉強タイム ～</p>
-		<a href="apply/index.html" class="join-btn text-center"><div class="">参加する</div></a>
-	</header>
-	<main>
+	<section class="hero-image">
 		<div class="wrapper">
-			<h2 class="section-title">Concept</h2>
-			<section class="card">
+			<header>
+				<h1 class="page-title"><span>Cafe de プログラミング</span></h1>
+				<a href="apply/index.html" class="btn text-center">参加する</a>
+			</header>
+			<div class="title-container">
+				<p class="page-subtitle">週末だけ開かれる、<br>大人の勉強タイム</p>
+			<img src="images/logo.png" alt="ロゴ" class="logo">
+			</div>
+		</div>
+	</section>
+	<main class="wrapper">
+		<section id="concept">
+			<h2 class="section-title text-center">Concept</h2>
+			<div class="card">
 				<div class="concept-text text-center">
 					<p>副業として――。新しい仕事のフィールドとして――。</p>
 					<p>学校ではプログラミングが必修になった昨今。</p>
 					<p>自分も興味はあるけど……</p>
 					<p class="text-underline">平日は忙しい‼<br>どこで学べばいいんだろう？</p>
 					<p>そう思ってはいませんか？</p>
-					<p>そこで、私たちがプログラミング学習の入り口に最適な環境を提供します!!</p>
+					<p>そこで、私たちがプログラミング学習の入口に最適な環境を提供します!!</p>
 				</div>
-				<div class="images-list">
-					<div class="concept-image"></div>
-					<div class="concept-image"></div>
-					<div class="concept-image"></div>
+				<div class="concept-images-list">
+					<img src="images/room.jpg" alt="室内の写真" class="concept-image">
+					<img src="images/coffee.jpg" alt="コーヒーの写真" class="concept-image">
+					<img src="images/teacher.jpg" alt="講師の写真" class="concept-image">
 				</div>
 				<div class="concept-text text-center">
 					<ul>
-					<li>おしゃれなカフェ風の会場</li>
-					<li>PC無料貸し出し</li>
-					<li>現役エンジニアの講師</li>
-				</ul>
-				<p>この機会に、ぜひ新たな学びに挑戦してみませんか⁉</p>
+						<li>★おしゃれなカフェ風の会場</li>
+						<li>★コーヒー・カフェラテのサービス</li>
+						<li>★現役エンジニアの講師</li>
+					</ul>
+					<p>PCをあまり触ったことのない方も安心!<br>キーボード入力ができれば大丈夫!!</p>
+					<p>この機会に、ぜひ新たな学びに挑戦してみませんか⁉</p>
+				</div>
+				<a href="apply/index.html" class="btn text-center">参加する</a>
 			</div>
-			<a href="apply/index.html" class="join-btn text-center"><div class="">参加する</div></a>
-			</section>
-			<section>
-				<h2 class="section-title">Schedule</h2>
-				<h3 class="month">November</h3>
-				<ul class="schedule-list">
-					<li class="schedule-item card">
-						<div class="date-icon">
-							<p class="day">sat</p>
-							<p class="date">05</p>
-						</div>
+		</section>
+		<section id="schedule">
+			<h2 class="section-title text-center">Schedule</h2>
+			<h3 class="month">November</h3>
+			<ul class="schedule-list">
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sat</p>
+						<p class="date">19</p>
+					</div>
+					<div class="schedule-item-content">
+						<p class="subject">JavaScript ❶</p>
+						<div class="tag tag-tokyo">東京会場</div>
+					</div>
+				</li>
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sun</p>
+						<p class="date">20</p>
+					</div>
+					<div class="schedule-item-content">
+						<p class="subject">JavaScript ❶</p>
+						<div class="tag tag-osaka">大阪会場</div>
+					</div>
+				</li>
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sat</p>
+						<p class="date">26</p>
+					</div>
+					<div class="schedule-item-content">
+						<p class="subject">JavaScript ❷</p>
+						<div class="tag tag-tokyo">東京会場</div>
+					</div>
+				</li>
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sun</p>
+						<p class="date">27</p>
+					</div>
+					<div class="schedule-item-content">
+						<p class="subject">JavaScript ❷</p>
+						<div class="tag tag-osaka">大阪会場</div>
+					</div>
+				</li>
+			</ul>
+			<h3 class="month">December</h3>
+			<ul class="schedule-list">
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sat</p>
+						<p class="date">03</p>
+					</div>
+					<div class="schedule-item-content">
 						<p class="subject text-upper">html & css ❶</p>
-						<div>
+						<div class="tag-list">
 							<div class="tag tag-tokyo">東京会場</div>
 						</div>
-					</li>
-					<li class="schedule-item card">
-						<div class="date-icon">
-							<p class="day">sat</p>
-							<p class="date">12</p>
-						</div>
+					</div>
+				</li>
+				<li class="schedule-item card">
+					<div class="schedule-item-date">
+						<p class="day">sat</p>
+						<p class="date">10</p>
+					</div>
+					<div class="schedule-item-content">
 						<p class="subject text-upper">html & css ❷</p>
-						<div>
-							<div class="tag tag-tokyo">東京会場</div>
-						</div>
-					</li>
-					<li class="schedule-item card">
-						<div class="date-icon">
-							<p class="day">sat</p>
-							<p class="date">19</p>
-						</div>
-						<p class="subject">Pyson ❶</p>
 						<div class="tag-list">
 							<div class="tag tag-tokyo">東京会場</div>
-							<div class="tag tag-osaka">大阪会場</div>
-						</div>
-					</li>
-					<li class="schedule-item card">
-						<div class="date-icon">
-							<p class="day">sat</p>
-							<p class="date">26</p>
-						</div>
-						<p class="subject">Pyson ❷</p>
-						<div class="tag-list">
-							<div class="tag tag-tokyo">東京会場</div>
-							<div class="tag tag-osaka">大阪会場</div>
-						</div>
-					</li>
-				</ul>
-				<p class="text-center">※ ❶と❷ (同名・同会場) の2回セットでの受講となります。</p>
-			</section>
-			<section>
-				<h2 class="section-title">Access</h2>
-				<div class="map card">
-					<div class="map-image"></div>
-					<div class="map-address">
-						<div class="tag-list">
-							<div class="tag tag-tokyo">東京会場</div>
-						</div>
-						<div class="map-text">
-							<p>〒111-1111</p>
-							<p>東京都豊島区東池袋0-00-0<br>なんとかタワー0階</p>
 						</div>
 					</div>
-				</div>
-				<div class="map card">
-					<div class="map-image"></div>
-					<div class="map-address">
-						<div class="tag-list">
-							<div class="tag tag-osaka">大阪会場</div>
-						</div>
-						<div class="map-text">
-							<p>〒111-1111</p>
-							<p>東京都豊島区東池袋0-00-0<br>なんとかタワー0階</p>
-						</div>
+				</li>
+			</ul>
+			<p class="text-center">※ ❶と❷ (同名・同会場) の2回セットでの受講となります。</p>
+		</section>
+		<section id="map">
+			<h2 class="section-title text-center">Access</h2>
+			<div class="card">
+				<div class="map-image map-tokyo"></div>
+				<div class="map-address">
+					<div class="tag tag-tokyo">東京会場</div>
+					<div class="map-text">
+						<p>〒171-0022</p>
+						<p>東京都豊島区東池袋10-1-2<br>イースト池袋ビル3階</p>
 					</div>
 				</div>
-			</section>
-		</div>
-		<a href="apply/index.html" class="join-btn text-center"><div class="">参加する</div></a>
+			</div>
+			<div class="map card">
+				<div class="map-image map-osaka"></div>
+				<div class="map-address">
+					<div class="tag tag-osaka">大阪会場</div>
+					<div class="map-text">
+						<p>〒540-0002</p>
+						<p>大阪府大阪市中央区大阪城1-2-3<br>キャッスル大阪ビル4階</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a href="apply/index.html" class="btn text-center">参加する</a>
+		<ul class="social-list">
+			<li class="social-item">
+				<a href="https://twitter.com">
+					<img src="images/Twitter.svg" alt="Twitterのアイコン">
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="https://facebook.com">
+					<img src="images/facebook.svg" alt="Facabookのアイコン">
+				</a>
+			</li>
+			<li class="social-item">
+				<a href="https://instagram.com">
+					<img src="images/instagram.svg" alt="Instagram">
+				</a>
+			</li>
+		</ul>
 	</main>
 	<footer>
-		<p>〒111-1111</p>
-		<p>東京都豊島区東池袋0-00-0<br>なんとかタワー0階</p>
+		<p class="company">株式会社IT+cafe</p>
+		<small>&copy; IT+cafe Co.,Ltd 2022</small>
 	</footer>
 </body>
 </html>
